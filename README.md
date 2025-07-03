@@ -2,8 +2,6 @@
 
 > A simple way to read headers from the `getallheaders` function in PHP.
 
-<hr>
-
 ## 🫡 Usage
 
 ### 🚀 Installation
@@ -13,8 +11,6 @@ You can install the package via composer:
 ```bash
 composer require nabeghe/headers-reader
 ```
-
-<hr>
 
 ### Example 1 - Main Class
 
@@ -56,10 +52,6 @@ echo 'X-Custom-4: '.MyHeaders::get('X-Custom-4')."\n<br>";
 echo 'X-Custom-5: '.MyHeaders::get('X-Custom-5')."\n<br>";
 ```
 
-<hr>
-
 ## 📖 License
-
-Copyright (c) Hadi Akbarzadeh
 
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.

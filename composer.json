@@ -1,26 +1,23 @@
 {
   "name": "nabeghe/headers-reader",
   "description": "A simple way to read headers from the `getallheaders` function in PHP.",
-  "keywords": [
-    "header", "headers", "headers reader", "headers reader", "reader", "getallheaders",
-    "library", "helper", "support"
-  ],
+  "keywords": ["getallheaders", "header", "headers", "headers reader", "helper", "library", "reader", "support"],
   "type": "library",
   "homepage": "https://github.com/nabeghe/reflecty-php",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Hadi Akbarzadeh",
+      "email": "elsiomcoder@gmail.com",
+      "homepage": "https://elatel.ir",
+      "role": "Developer"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Nabeghe\\HeadersReader\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "Hadi Akbarzadeh",
-      "email": "hadicoder@gmail.com",
-      "homepage": "https://elatel.ir",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": ">=5.6"
   }
